@@ -41,10 +41,10 @@ const Searchbar = ({ inputRef, handleLocationSearch }) => {
         value={city}
         ref={inputRef}
         onChange={(e) => setCity(e.target.value)}
-        className="flex-1 bg-transparent outline-none placeholder:text-white text-white text-[15px] font-light pl-6 h-full"
+        className=" max-w-56 bg-transparent outline-none placeholder:text-white text-white text-[15px] font-light pl-6 h-full"
         placeholder="Search by city"
       />
-      <button className="bg-[#1ab8ed] hover:bg-[#15abdd] w-12 h-8 rounded-3xl flex justify-center items-center transition cursor-pointer">
+      <button className="bg-[#1ab8ed] hover:bg-[#15abdd] min-w-12 min-h-8 rounded-3xl flex justify-center items-center transition cursor-pointer">
         <IoMdSearch className="text-2xl text-white" />
       </button>
     </form>

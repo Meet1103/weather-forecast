@@ -4,7 +4,11 @@ module.exports = {
     fontFamily: {
       primary: "Poppins",
     },
-    extend: {},
+    extend: {
+      zIndex: {
+        100000: "100000",
+      },
+    },
   },
   plugins: [],
 };

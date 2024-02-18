@@ -80,7 +80,7 @@ function App() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen w-screen overflow-y-auto px-4 lg:px-0 bg-gradient-to-r from-purple-500 to-pink-500">
+    <div className="flex flex-col items-center justify-center no-scrollbar h-screen w-screen overflow-y-auto z-[100000] overflow-x-hidden px-4 lg:px-0 bg-gradient-to-r from-purple-500 to-pink-500">
       <Searchbar
         inputRef={inputRef}
         handleLocationSearch={handleLocationSearch}
